@@ -1,0 +1,25 @@
+.test{
+    background-color: red;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: cursive;
+}
+
+.div-one{
+    height: 300px;
+    width: 400px;
+    background: red;
+    float: left;
+    /*margin: 20px 50px 100px 200px;*/
+    /*margin-top: 50px;*/
+    padding-top: 120px;
+    padding-left: 150px;
+    box-sizing: border-box;
+}
+
+.div-two{
+    height: 400px;
+    width: 500px;
+    background: green;
+    float: left;
+}

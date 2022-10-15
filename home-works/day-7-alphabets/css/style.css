@@ -1,0 +1,678 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:300px;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+
+[class*='col-']{
+    float: left;
+    border:1px solid rgba(128, 128, 128, 0.15);
+}
+
+.h-50{height: 50px;}
+.h-200{height: 200px;}
+.h-250{height: 250px;}
+.h-300{height: 300px;}
+.h-600{height: 600px;}
+
+.container{
+    width:90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.row:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.f-left{
+    float: left;
+}
+/*parent positions*/
+[class*='alpha-']{
+    position: relative;
+}
+/*A*/
+.a-one{
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    top:50px;
+    left: 75px;
+    transform: skew(-30deg);
+    background: red;
+
+}
+.a-two{
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    top:50px;
+    right: 75px;
+    transform: skew(30deg);
+    background: red;
+
+}
+.a-three{
+    height: 20px;
+    width: 145px;
+    position: absolute;
+    top:150px;
+    left: 75px;
+    background: red;
+}
+/*B*/
+
+.b-structure{
+    height: 105px;
+    width: 100px;
+    border:17px solid red;
+    border-radius: 0 100% 100% 0;
+}
+
+.b-one{
+    position: absolute;
+    top:50px;
+    left:100px;
+}
+.b-two{
+    position: absolute;
+    top:140px;
+    left:100px;
+}
+/*C*/
+.c-one{
+    position: absolute;
+    height: 200px;
+    width:100px;
+    border: 20px solid red;
+    border-radius: 100px 0 0 100px;
+    border-right: none;
+    top:50px;
+    left:70px;
+}
+/*D*/
+.d-one{
+    position: absolute;
+    height: 200px;
+    width: 100px;
+    border: 20px solid red;
+    border-radius: 0 100% 100% 0;
+    top:50px;
+    left:70px;
+}
+/*E*/
+.e-one{
+    position: absolute;
+    width:20px;
+    height: 200px;
+    background: red;
+    top:50px;
+    left:70px;
+}
+.e-two{
+    position: absolute;
+    width:120px;
+    height: 20px;
+    background: red;
+    top:50px;
+    left:70px;
+}
+.e-three{
+    position: absolute;
+    width:120px;
+    height: 20px;
+    background: red;
+    top:140px;
+    left:70px;
+}
+.e-four{
+    position: absolute;
+    width:120px;
+    height: 20px;
+    background: red;
+    top:230px;
+    left:70px;
+}
+/*F*/
+.f-one{
+    position: absolute;
+    width:20px;
+    height: 200px;
+    background: red;
+    top:50px;
+    left:70px;
+}
+
+.f-two{
+    position: absolute;
+    width:120px;
+    height: 20px;
+    background: red;
+    top:50px;
+    left:70px;
+}
+
+.f-three{
+    position: absolute;
+    width:110px;
+    height: 20px;
+    background: red;
+    top:140px;
+    left:70px;
+}
+/*G*/
+.g-one{
+    position: absolute;
+    height: 200px;
+    width:100px;
+    border: 20px solid red;
+    border-radius: 100% 0 0 100%;
+    border-right: none;
+    top:50px;
+    left:70px;
+}
+
+.g-two{
+    position: absolute;
+    height: 50px;
+    width: 20px;
+    background: red;
+    bottom: 48px;
+    right: 120px;
+}
+.g-three{
+    position: absolute;
+    height: 20px;
+    width: 80px;
+    background: red;
+    bottom: 90px;
+    right: 90px;
+}
+.g-four{
+    position: absolute;
+    height: 62px;
+    width: 20px;
+    background: red;
+    bottom: 48px;
+    right: 70px;
+}
+/*H*/
+
+.h-one{
+    position: absolute;
+    width:20px;
+    height: 200px;
+    background: red;
+    top:50px;
+    left:70px;
+}
+
+.h-two{
+    position: absolute;
+    width:120px;
+    height: 20px;
+    background: red;
+    top:140px;
+    left:70px;
+}
+
+.h-three{
+    position: absolute;
+    width:20px;
+    height: 200px;
+    background: red;
+    top:50px;
+    right:90px;
+}
+
+/*I*/
+
+.i-one{
+    position: absolute;
+    width:20px;
+    height: 200px;
+    background: red;
+    top:50px;
+    left:140px;
+}
+
+.i-two{
+    position: absolute;
+    height: 18px;
+    width: 60px;
+    background: red;
+    top:50px;
+    left: 120px;
+
+}
+.i-three{
+    position: absolute;
+    height: 18px;
+    width: 60px;
+    background: red;
+    bottom:40px;
+    left: 120px;
+}
+/*J*/
+.j-one{
+    position: absolute;
+    width:20px;
+    height: 167px;
+    background: red;
+    top:50px;
+    left:170px;
+}
+.j-two{
+    position: absolute;
+    width:100px;
+    height: 50px;
+    border: 20px solid red;
+    border-radius: 0 0 50px 50px;
+    border-top:none;
+    bottom: 30px;
+    left:90px
+}
+
+.j-three{
+    position: absolute;
+    height: 18px;
+    width: 60px;
+    background: red;
+    top:50px;
+    left: 120px;
+}
+/*K*/
+.k-one{
+    position: absolute;
+    width:20px;
+    height: 200px;
+    background: red;
+    top:50px;
+    left:80px;
+}
+
+.k-two{
+    position: absolute;
+    width: 25px;
+    height: 100px;
+    background: red;
+    transform: skew(-45deg);
+    top: 50px;
+    left:130px;
+}
+.k-three{
+    position: absolute;
+    width: 25px;
+    height: 100px;
+    background: red;
+    transform: skew(45deg);
+    bottom: 55px;
+    left:130px;
+}
+/*L*/
+.l-one{
+    position: absolute;
+    width:20px;
+    height: 200px;
+    background: red;
+    top:50px;
+    left:80px;
+}
+.l-two{
+    position: absolute;
+    width:140px;
+    height: 20px;
+    background: red;
+    bottom:47px;
+    left:80px;
+}
+
+/*M*/
+.m-one{
+    position: absolute;
+    width:20px;
+    height: 200px;
+    background: red;
+    top:50px;
+    left:60px;
+}
+.m-two{
+    position: absolute;
+    width:20px;
+    height: 125px;
+    background: red;
+    transform: skew(30deg);
+    top:50px;
+    left:95px;
+}
+.m-three{
+    position: absolute;
+    width:20px;
+    height: 125px;
+    background: red;
+    transform: skew(-30deg);
+    top:50px;
+    right:105px;
+}
+.m-four{
+    position: absolute;
+    width:20px;
+    height: 200px;
+    background: red;
+    top:50px;
+    right:70px;
+}
+/*N*/
+.n-one{
+    position: absolute;
+    width:20px;
+    height: 200px;
+    background: red;
+    top:50px;
+    left:60px;
+}
+.n-two{
+    position: absolute;
+    width:20px;
+    height: 200px;
+    background: red;
+    transform: skew(35deg);
+    top:50px;
+    left:130px;
+}
+
+.n-three{
+    position: absolute;
+    width:20px;
+    height: 200px;
+    background: red;
+    top:50px;
+    right:75px;
+}
+
+/*O*/
+.o-one{
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border:20px solid red;
+    border-radius: 100%;
+    top:50px;
+    left:50px;
+}
+/*P*/
+.p-one{
+    position: absolute;
+    height: 105px;
+    width: 100px;
+    border:17px solid red;
+    border-radius: 0 100% 100% 0;
+    top: 50px;
+    left: 100px;
+}
+.p-two{
+    position: absolute;
+    height: 100px;
+    width: 18px;
+    background: red;
+    bottom: 50px;
+    left: 100px;
+}
+/*Q*/
+.q-one{
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border:20px solid red;
+    border-radius: 100%;
+    top:50px;
+    left:50px;
+}
+
+.q-two{
+    position: absolute;
+    height: 90px;
+    width: 25px;
+    background: red;
+    transform: skew(50deg);
+    right: 70px;
+    bottom: 20px;
+
+}
+/*R*/
+.r-one{
+    position: absolute;
+    height: 105px;
+    width: 100px;
+    border:17px solid red;
+    border-radius: 0 100% 100% 0;
+    top: 50px;
+    left: 100px;
+}
+.r-two{
+    position: absolute;
+    height: 100px;
+    width: 18px;
+    background: red;
+    bottom: 50px;
+    left: 100px;
+}
+.r-three{
+    position: absolute;
+    height: 100px;
+    width: 20px;
+    background: red;
+    transform: skew(30deg);
+    bottom: 50px;
+    left: 160px;
+}
+/*S*/
+.s-one{
+    position: absolute;
+    height: 107px;
+    width:95px;
+    border: 20px solid red;
+    border-radius: 50px 20px 20px 50px;
+    border-right: none;
+    top:52px;
+    left:65px;
+    transform: rotate(10deg);
+}
+.s-two{
+    position: absolute;
+    height: 107px;
+    width:95px;
+    border: 20px solid red;
+    border-radius: 20px 50px 50px 20px;
+    border-left: none;
+    bottom:41px;
+    left:100px;
+    transform: rotate(10deg);
+}
+
+/*T*/
+.t-one{
+    position: absolute;
+    width:20px;
+    height: 200px;
+    background: red;
+    top:50px;
+    left:140px;
+}
+
+.t-two{
+    position: absolute;
+    height: 18px;
+    width: 200px;
+    background: red;
+    top:50px;
+    left: 50px;
+
+}
+
+/*U*/
+.u-one{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border:20px solid red;
+    border-radius: 0  0 100px 100px;
+    border-top: none;
+    top:50px;
+    left:50px;
+}
+/*V*/
+.v-one{
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    top:50px;
+    left: 90px;
+    transform: skew(25deg);
+    background: red;
+
+}
+.v-two{
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    top:50px;
+    right: 90px;
+    transform: skew(-25deg);
+    background: red;
+
+}
+/*W*/
+
+.w-one{
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    top:50px;
+    left: 40px;
+    transform: skew(20deg);
+    background: red;
+
+}
+.w-two{
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    top:50px;
+    left: 115px;
+    transform: skew(-20deg);
+    background: red;
+
+}
+.w-three{
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    top:50px;
+    right: 115px;
+    transform: skew(20deg);
+    background: red;
+}
+.w-four{
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    top:50px;
+    right: 40px;
+    transform: skew(-20deg);
+    background: red;
+
+}
+
+/*X*/
+.x-one{
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    top:50px;
+    left: 125px;
+    transform: skew(40deg);
+    background: red;
+
+}
+.x-two{
+    height: 200px;
+    width: 20px;
+    position: absolute;
+    top:50px;
+    left: 120px;
+    transform: skew(-40deg);
+    background: red;
+
+}
+/*Y*/
+.y-one{
+    position: absolute;
+    width:20px;
+    height: 125px;
+    background: red;
+    transform: skew(30deg);
+    top:50px;
+    left:95px;
+}
+.y-two{
+    position: absolute;
+    width:20px;
+    height: 125px;
+    background: red;
+    transform: skew(-30deg);
+    top:50px;
+    right:105px;
+}
+
+.y-three{
+    position: absolute;
+    width:29px;
+    height: 100px;
+    background: red;
+    bottom:40px;
+    left:130px;
+}
+
+/*Z*/
+.z-one{
+    position: absolute;
+    height: 18px;
+    width: 180px;
+    background: red;
+    top:50px;
+    left: 50px;
+}
+.z-two{
+    height: 195px;
+    width: 20px;
+    position: absolute;
+    top: 50px;
+    left: 130px;
+    transform: skew(-45deg);
+    background: red;
+}
+.z-three{
+    position: absolute;
+    height: 18px;
+    width: 180px;
+    background: red;
+    bottom:50px;
+    left: 50px;
+}
