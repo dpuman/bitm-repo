@@ -1,0 +1,13 @@
+{
+  "name": "php-day-1/php-day-1",
+  "type": "project",
+  "description": "A Simple php project",
+  "keywords": [],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}

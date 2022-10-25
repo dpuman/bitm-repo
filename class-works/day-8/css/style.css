@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+
+
+}
+.div-one{
+    height: 500px;
+    width: 100%;
+    /*background: url("../images/1.jpg");*/
+    background-image:url("../images/1.jpg") ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+
+    animation-name: bitm;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: absolute;
+
+}
+
+@keyframes bitm {
+    0%{
+
+        background-image:url("../images/1.jpg") ;
+    }
+    50%{
+        background-image:url("../images/2.jpg") ;
+
+
+    }
+    100% {
+        background-image:url("../images/4.png") ;
+
+    }
+
+}
+
+
+/*@keyframes bitm {*/
+/*    0%{*/
+
+/*        top: 0px;*/
+/*        left: 0px;*/
+/*    }*/
+/*    25%{*/
+
+/*        top:0px;*/
+/*        left: 900px;*/
+/*    }*/
+/*    50% {*/
+
+/*        top: 500px;*/
+/*        left: 900px;*/
+/*    }*/
+/*    70%{*/
+
+/*        top: 500px;*/
+/*        left: 0px;*/
+/*    }*/
+/*    100%{*/
+
+/*        top: 0px;*/
+/*        left: 0px;*/
+/*    }*/
+/*}*/

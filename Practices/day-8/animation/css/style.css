@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.div-one{
+    /*width: 100px;*/
+    /*width: 10%;*/
+    /*background: red;*/
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    animation-name: bitm;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-image: url("../images/one.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@keyframes bitm {
+    0% {
+        background-image: url("../images/one.jpg");
+
+    }
+    25% {
+        background-image: url("../images/two.jpg");
+
+    }
+    50% {
+        background-image: url("../images/three.jpg");
+
+    }
+    75% {
+        background-image: url("../images/four.jpg");
+
+    }
+    100% {
+        background-image: url("../images/five.jpg");
+
+    }
+}
+/*@keyframes bitm {*/
+/*    0%{*/
+/*        background: red;*/
+/*        width: 10%;*/
+/*    }*/
+/*    25%{*/
+/*        background: green;*/
+/*        width: 25%;*/
+/*    }*/
+/*    50%{*/
+/*        background: blue;*/
+/*        width: 50%;*/
+/*    }*/
+/*    75%{*/
+/*        background: orange;*/
+/*        width: 75%;*/
+/*    }*/
+/*    100%{*/
+/*        background: red;*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+
+/*}@keyframes bitm {*/
+/*    0%{*/
+/*        background: red;*/
+/*        top: 0px;*/
+/*        left: 0px;*/
+/*    }*/
+/*    25%{*/
+/*        background: green;*/
+/*        top: 0px;*/
+/*        left: 1000px;*/
+/*    }*/
+/*    50%{*/
+/*        background: blue;*/
+/*        top: 700px;*/
+/*        left: 1000px;*/
+/*    }*/
+/*    75%{*/
+/*        background: orange;*/
+/*        top: 700px;*/
+/*        left: 0px;*/
+/*    }*/
+/*    100%{*/
+/*        background: red;*/
+/*        top: 0px;*/
+/*        left: 0px;*/
+/*    }*/
+/*}*/

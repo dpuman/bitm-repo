@@ -1,0 +1,84 @@
+:root{
+    --primary-color:#FF4800;
+    --secondary-color: #D93D00;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-color{
+    color:#FF4800;
+}
+.bg-color{
+    background-color:#FF4800 ;
+}
+.bg-color:hover{
+    background-color: #D93D00;
+}
+.my-nav-link{
+ font-weight: 700;
+}
+.my-nav-link:hover{
+    background-color: #D93D00;
+    color: white;
+}
+.banner-section{
+    height:500px;
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1.5;
+}
+
+.form-card{
+    padding-top: 85px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.packages-bg, .card-bg{
+    background: #F2F2F4;
+}
+.packages-prices{
+    position: relative;
+}
+.packages-price{
+    font-size: 3rem;
+}
+.packages-dollar{
+    position: relative;
+    top:-20px;
+    left:0;
+}
+.team-footer{
+    border-bottom: 5px solid #FF4800;
+}
+.blog-user{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.blog-button{
+    text-decoration: underline;
+    padding-left: 0;
+}
+.blog-date{
+    background: var(--primary-color);
+    height: 70px;
+    width:70px;
+    border-radius: 100%;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom:-35px;
+    right: 35px;
+}
+.blog-header{
+    position: relative;
+}
+.date-date{
+    font-size: 25px ;
+    margin-bottom: -10px;
+
+}
