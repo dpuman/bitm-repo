@@ -1,0 +1,15 @@
+{
+  "name": "php-day-5/php-day-5",
+  "type": "project",
+  "description": "A simple project",
+  "license": "",
+  "keywords": [],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+
+}

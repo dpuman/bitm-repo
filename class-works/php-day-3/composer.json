@@ -1,0 +1,14 @@
+{
+  "name": "php-day-3/php-day-3",
+  "type": "project",
+  "description": "A simple project",
+  "license": "",
+  "keywords": [],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
