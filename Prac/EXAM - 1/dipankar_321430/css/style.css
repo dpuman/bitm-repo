@@ -1,0 +1,150 @@
+body{
+    /*font-family: 'Poppins', sans-serif;*/
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#1ABB9C;
+}
+.top-header li{
+    font-size: 12px;
+
+}
+.bottom-header .my-menu{
+    font-weight: 700;
+
+}
+
+.my-menu a{
+    color: #4F6A86;
+}
+.banner-section{
+    height:550px;
+    background-image: url("../images/slider01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1.5;
+}
+
+.banner-section h5{
+    color: #a3b1bf;
+}
+.banner-section .btn{
+    border-radius: 5px;
+    width: 200px;
+}
+.banner-section .btn:hover{
+    background: #11a386;
+    color: white;
+}
+.bg-color{
+    background: var(--primary-color);
+}
+
+.text-color{
+    color: #4F6A86;
+}
+.p-color{
+    color: #73879c;
+}
+
+.portfolio p, .our-work p, .work-with-us p{
+    font-size: 22px;
+    line-height: 150%;
+
+
+}
+
+.icon i{
+    font-size: 70px;
+    color: var(--primary-color);
+}
+.portfolio-des h2{
+    font-size: 26px;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+.portfolio-des .text-small{
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.our-work{
+    background: #F2F5F7;
+}
+
+.work-with-us btn{
+    border-radius: 5px;
+}
+
+.work-with-us .btn:hover{
+    background: #11a386;
+    color: white;
+}
+/*FOOTER*/
+
+.top-footer{
+    background: #2F4052;
+}
+.top-footer p{
+    color: #a3b1bf;
+}
+.top-footer a{
+    color: #a3b1bf !important;
+    font-weight: 600;
+}
+
+.top-footer li{
+    color: #a3b1bf;
+}
+.top-footer .input-group{
+    position: relative;
+}
+.top-footer input{
+    font-size: 15px!important;
+}
+.top-footer .f-btn{
+    border-radius: 10px!important;
+    background:#26a844;
+    position: absolute;
+    top:5px;
+    right: 10px;
+    color: white;
+
+}
+
+.bottom-footer {
+    background: #283645;
+    color:#a3b1bf ;
+}
+
+.bottom-footer a{
+    color: #a3b1bf;
+}
+
+.b-f-menu li:before{
+    content: " .";
+    position: absolute;
+    top:13px;
+}
+.owl-prev , .owl-next{
+    display: none !important;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--primary-color)!important; }
+
+@media screen and (max-width: 768px) {
+    .top-header{
+        display: none;
+    }
+    
+}
+@media screen and  (max-width: 1239px) {
+    .banner-section .card{
+      top: 90px!important;
+    }
+
+}
