@@ -23,6 +23,7 @@
                 <li><a href="{{route('home')}}" class="nav-link">Home</a></li>
                 <li><a href="{{route('about')}}" class="nav-link">About</a></li>
                 <li><a href="{{route('service')}}" class="nav-link">Service</a></li>
+                <li><a href="{{route('series')}}" class="nav-link">Series</a></li>
             </ul>
         </div>
     </div>

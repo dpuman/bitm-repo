@@ -17,3 +17,5 @@ Route::get('/',[WelcomeController::class,'index'])->name('home');
 Route::get('/about',[WelcomeController::class,'about'])->name('about');
 Route::get('/service',[WelcomeController::class,'service'])->name('service');
 Route::get('/detail/{id}',[WelcomeController::class,'detail'])->name('detail');
+Route::get('/series',[WelcomeController::class,'series'])->name('series');
+Route::post('/generate-series',[WelcomeController::class,'generateSeries'])->name('generate-series');
